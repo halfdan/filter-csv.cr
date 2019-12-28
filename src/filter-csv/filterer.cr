@@ -3,7 +3,7 @@ require "json"
 
 class Filter
   include JSON::Serializable
-  
+
   @[JSON::Field(key: "column")]
   property column : String
 
