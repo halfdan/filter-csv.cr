@@ -1,0 +1,16 @@
+name: filter-csv
+version: 0.1.0
+
+authors:
+  - Fabian Becker <halfdan@xnorfz.de>
+
+targets:
+  filter-csv:
+    main: src/filter-csv.cr
+
+dependencies:
+  admiral:
+    github: jwaldrip/admiral.cr
+crystal: 0.32.1
+
+license: MIT
